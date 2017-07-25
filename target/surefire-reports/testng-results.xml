@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke suite" duration-ms="40444" started-at="2017-07-25T12:14:16Z" finished-at="2017-07-25T12:14:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40444" started-at="2017-07-25T12:14:16Z" finished-at="2017-07-25T12:14:57Z">
+      <class name="testScenarios.LoginTestScearios">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testScenarios.LoginTestScearios@2ef9b8bc]" name="setUp" is-config="true" duration-ms="33936" started-at="2017-07-25T17:44:16Z" finished-at="2017-07-25T17:44:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testScenarios.LoginTestScearios@2ef9b8bc]" name="test2" duration-ms="5241" started-at="2017-07-25T17:44:50Z" description="validating login with Invalid credentials " finished-at="2017-07-25T17:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="teadDown()[pri:0, instance:testScenarios.LoginTestScearios@2ef9b8bc]" name="teadDown" is-config="true" duration-ms="1222" started-at="2017-07-25T17:44:56Z" finished-at="2017-07-25T17:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teadDown -->
+      </class> <!-- testScenarios.LoginTestScearios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Smoke suite -->
+</testng-results>
