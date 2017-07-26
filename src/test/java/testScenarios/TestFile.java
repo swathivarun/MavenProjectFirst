@@ -1,5 +1,8 @@
 package testScenarios;
 
-public class TestFile {
-
+public class TestFile 
+{
+  void m1()
+  {
+  }
 }
