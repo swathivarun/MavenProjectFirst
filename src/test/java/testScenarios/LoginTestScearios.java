@@ -58,4 +58,15 @@ public class LoginTestScearios
 		soft.assertTrue(res1.contains("Password"),"password palce holder txt is incorect");
 		soft.assertAll();
 	}
+	
+	@Test(description="validating place holder")
+	public void test4()
+	{
+		LoginPage loginpage = new LoginPage(driver);
+		String res=loginpage.verifyPlaceholderUsername();
+		soft.assertTrue(res.contains("Username"),"username palce holder txt is incorect");
+		String res1=loginpage.verifyPlaceholderPassword();
+		soft.assertTrue(res1.contains("Password"),"password palce holder txt is incorect");
+		soft.assertAll();
+	}
 }
